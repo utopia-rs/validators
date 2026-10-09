@@ -9,3 +9,4 @@ license = "BSD-3-Clause"
 [dependencies]
 php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
 serde_json = { version = "1", features = ["raw_value", "preserve_order", "float_roundtrip"] }
+thiserror = "2"
