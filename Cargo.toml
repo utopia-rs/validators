@@ -1,0 +1,11 @@
+[package]
+name = "utopia-validators"
+description = "Request parameter validators with Utopia semantics and messages."
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "BSD-3-Clause"
+
+[dependencies]
+php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
+serde_json = { version = "1", features = ["raw_value", "preserve_order", "float_roundtrip"] }
